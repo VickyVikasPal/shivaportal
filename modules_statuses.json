@@ -1,5 +1,9 @@
 {
     "Post": true,
     "Category": true,
-    "Tag": true
+    "Tag": true,
+    "Client": true,
+    "Gst": true,
+    "Incometax": true,
+    "Td": true
 }

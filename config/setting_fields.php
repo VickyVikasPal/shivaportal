@@ -14,7 +14,7 @@ return [
                 'label' => 'App Name', // you know what label it is
                 'rules' => 'required|min:2|max:50', // validation rule of laravel
                 'class' => '', // any class for input
-                'value' => 'Laravel Starter', // default value if you want
+                'value' => 'Shiva Portal', // default value if you want
             ],
             [
                 'type' => 'text', // input fields type
@@ -23,7 +23,7 @@ return [
                 'label' => 'App Description', // you know what label it is
                 'rules' => 'required', // validation rule of laravel
                 'class' => '', // any class for input
-                'value' => 'Laravel Starter is a CMS like modular starter application project built with latest Laravel. This starter project can be used as a foundation to build your own projects.', // default value if you want
+                'value' => 'Shiva Portal is a CMS like modular starter application project built with latest Laravel. This starter project can be used as a foundation to build your own projects.', // default value if you want
             ],
             [
                 'type' => 'text', // input fields type
@@ -157,7 +157,7 @@ return [
                 'label' => 'Meta Site Name', // you know what label it is
                 'rules' => 'required', // validation rule of laravel
                 'class' => '', // any class for input
-                'value' => 'Laravel Starter | An Awesome Laravel Starter Project', // default value if you want
+                'value' => 'Shiva Portal | An Awesome Shiva Portal Project', // default value if you want
             ],
             [
                 'type' => 'text', // input fields type
@@ -166,7 +166,7 @@ return [
                 'label' => 'Meta Description', // you know what label it is
                 'rules' => 'required', // validation rule of laravel
                 'class' => '', // any class for input
-                'value' => 'Laravel Starter is a CMS like modular starter application project built with latest Laravel. This starter project can be used as a foundation to build your own projects.', // default value if you want
+                'value' => 'Shiva Portal is a CMS like modular starter application project built with latest Laravel. This starter project can be used as a foundation to build your own projects.', // default value if you want
             ],
             [
                 'type' => 'text', // input fields type
@@ -175,7 +175,7 @@ return [
                 'label' => 'Meta Keyword', // you know what label it is
                 'rules' => 'nullable', // validation rule of laravel
                 'class' => '', // any class for input
-                'value' => 'Web Application, web app, Laravel, Laravel starter, Bootstrap, Admin, Template, Open Source, nasir khan saikat, nasirkhansaikat', // default value if you want
+                'value' => 'Web Application, web app, Laravel, Shiva Portal, Bootstrap, Admin, Template, Open Source, nasir khan saikat, nasirkhansaikat', // default value if you want
             ],
             [
                 'type' => 'text', // input fields type

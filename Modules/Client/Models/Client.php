@@ -1,0 +1,25 @@
+<?php
+
+namespace Modules\Client\Models;
+
+use App\Models\BaseModel;
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\SoftDeletes;
+
+class Client extends BaseModel
+{
+    use HasFactory;
+    use SoftDeletes;
+
+    protected $table = 'clients';
+
+    /**
+     * Create a new factory instance for the model.
+     *
+     * @return \Illuminate\Database\Eloquent\Factories\Factory
+     */
+    protected static function newFactory()
+    {
+        return \Modules\Client\database\factories\ClientFactory::new();
+    }
+}

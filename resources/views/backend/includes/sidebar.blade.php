@@ -7,12 +7,14 @@ $notifications_latest = optional($notifications)->take(5);
 <div class="sidebar sidebar-dark sidebar-fixed border-end" id="sidebar">
     <div class="sidebar-header border-bottom">
         <div class="sidebar-brand d-sm-flex justify-content-center">
-            <a href="/">
+            <!-- <a href="/">
                 <img class="sidebar-brand-full" src="{{ asset('img/logo-with-text.jpg') }}" alt="{{ app_name() }}"
                     height="46">
                 <img class="sidebar-brand-narrow" src="{{ asset('img/logo-square.jpg') }}" alt="{{ app_name() }}"
                     height="46">
-            </a>
+            </a> -->
+            <h4 style="color:red;">SHIVA PORTAL</h4>
+
         </div>
         <button class="btn-close d-lg-none" data-coreui-dismiss="offcanvas" data-coreui-theme="dark" type="button"
             aria-label="Close"
@@ -24,6 +26,39 @@ $notifications_latest = optional($notifications)->take(5);
                 <i class="nav-icon fa-solid fa-cubes"></i>&nbsp;@lang('Dashboard')
             </a>
         </li>
+        @php
+            $module_name = "gsts";
+            $text = __('Gsts');
+            $icon = "fa-regular fa-file-lines";
+            $permission = "view_".$module_name;
+            $url = route('backend.'.$module_name.'.index');
+        @endphp
+        <x-backend.sidebar-nav-item :permission="$permission" :url="$url" :icon="$icon" :text="$text" />
+        @php
+            $module_name = "incometaxes";
+            $text = __('Incometaxes');
+            $icon = "fa-regular fa-file-lines";
+            $permission = "view_".$module_name;
+            $url = route('backend.'.$module_name.'.index');
+        @endphp
+        <x-backend.sidebar-nav-item :permission="$permission" :url="$url" :icon="$icon" :text="$text" />
+        @php
+            $module_name = "tds";
+            $text = __('Tds');
+            $icon = "fa-regular fa-file-lines";
+            $permission = "view_".$module_name;
+            $url = route('backend.'.$module_name.'.index');
+        @endphp
+        <x-backend.sidebar-nav-item :permission="$permission" :url="$url" :icon="$icon" :text="$text" />
+        @php
+            $module_name = "clients";
+            $text = __('Clients');
+            $icon = "fa-regular fa-file-lines";
+            $permission = "view_".$module_name;
+            $url = route('backend.'.$module_name.'.index');
+        @endphp
+        <x-backend.sidebar-nav-item :permission="$permission" :url="$url" :icon="$icon" :text="$text" />
+
         <li class="nav-item">
             <a class="nav-link" href="{{ route('backend.notifications.index') }}">
                 <i class="nav-icon fa-regular fa-bell"></i>&nbsp;@lang('Notifications')
@@ -33,16 +68,16 @@ $notifications_latest = optional($notifications)->take(5);
             </a>
         </li>
 
-        @php
+        <!-- @php
             $module_name = "posts";
             $text = __('Posts');
             $icon = "fa-regular fa-file-lines";
             $permission = "view_".$module_name;
             $url = route('backend.'.$module_name.'.index');
         @endphp
-        <x-backend.sidebar-nav-item :permission="$permission" :url="$url" :icon="$icon" :text="$text" />
+        <x-backend.sidebar-nav-item :permission="$permission" :url="$url" :icon="$icon" :text="$text" /> -->
 
-        @php
+        <!-- @php
             $module_name = "categories";
             $text = __('Categories');
             $icon = "fa-solid fa-diagram-project";
@@ -50,8 +85,8 @@ $notifications_latest = optional($notifications)->take(5);
             $url = route('backend.'.$module_name.'.index');
         @endphp
         <x-backend.sidebar-nav-item :permission="$permission" :url="$url" :icon="$icon" :text="$text" />
-        
-        @php
+         -->
+        <!-- @php
             $module_name = "tags";
             $text = __('Tags');
             $icon = "fa-solid fa-tags";
@@ -59,7 +94,7 @@ $notifications_latest = optional($notifications)->take(5);
             $url = route('backend.'.$module_name.'.index');
         @endphp
         <x-backend.sidebar-nav-item :permission="$permission" :url="$url" :icon="$icon" :text="$text" />
-        
+         -->
         @php
             $module_name = "settings";
             $text = __('Settings');

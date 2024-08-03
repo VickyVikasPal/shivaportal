@@ -1,0 +1,13 @@
+{
+    "name": "Incometax",
+    "alias": "incometax",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Incometax\\Providers\\IncometaxServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

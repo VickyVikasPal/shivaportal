@@ -1,0 +1,13 @@
+{
+    "name": "Td",
+    "alias": "td",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Td\\Providers\\TdServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

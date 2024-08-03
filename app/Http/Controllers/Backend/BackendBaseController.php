@@ -87,18 +87,22 @@ class BackendBaseController extends Controller
 
         $term = trim($request->q);
 
-        if (empty($term)) {
-            return response()->json([]);
-        }
+        // if (empty($term)) {
+        //     return response()->json([]);
+        // }
 
-        $query_data = $module_model::where('name', 'LIKE', "%{$term}%")->orWhere('slug', 'LIKE', "%{$term}%")->limit(7)->get();
+        $query_data = $module_model::query();
+        if (!empty($term)) {
+            $query_data->where('name', 'LIKE', "%{$term}%");
+        }
+        $query_data = $query_data->limit(7)->get();
 
         $$module_name = [];
 
         foreach ($query_data as $row) {
             $$module_name[] = [
                 'id' => $row->id,
-                'text' => $row->name.' (Slug: '.$row->slug.')',
+                'text' => $row->name,
             ];
         }
 
@@ -124,7 +128,7 @@ class BackendBaseController extends Controller
         $page_heading = label_case($module_title);
         $title = $page_heading.' '.label_case($module_action);
 
-        $$module_name = $module_model::select('id', 'name', 'updated_at');
+        $$module_name = $module_model::select('*');
 
         $data = $$module_name;
 
@@ -134,7 +138,6 @@ class BackendBaseController extends Controller
 
                 return view('backend.includes.action_column', compact('module_name', 'data'));
             })
-            ->editColumn('name', '<strong>{{$name}}</strong>')
             ->editColumn('updated_at', function ($data) {
                 $module_name = $this->module_name;
 
@@ -146,7 +149,7 @@ class BackendBaseController extends Controller
 
                 return $data->updated_at->isoFormat('llll');
             })
-            ->rawColumns(['name', 'action'])
+            ->rawColumns(['action'])
             ->orderColumns(['id'], '-:column $1')
             ->make(true);
     }
