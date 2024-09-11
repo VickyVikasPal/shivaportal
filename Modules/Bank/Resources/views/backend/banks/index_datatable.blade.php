@@ -143,6 +143,10 @@
                 name: 'branch'
             },
             {
+                data: 'ifsc_code',
+                name: 'ifsc_code'
+            },
+            {
                 data: 'customer_id',
                 name: 'customer_id'
             },
