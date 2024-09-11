@@ -5,5 +5,8 @@
     "Client": true,
     "Gst": true,
     "Incometax": true,
-    "Td": true
+    "Td": true,
+    "Mca": true,
+    "Security": true,
+    "Bank": true
 }

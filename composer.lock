@@ -2814,22 +2814,22 @@
             ],
             "authors": [
                 {
-                    "name": "Nasir Khan",
-                    "email": "nasir8891@gmail.com",
+                    "name": "knowledgeupswing",
+                    "email": "knowledgeupswing@gmail.com",
                     "role": "Developer"
                 }
             ],
-            "description": "Module Manager & Generator for Laravel Starter Kit (https://github.com/nasirkhan/laravel-starter)",
-            "homepage": "https://github.com/nasirkhan/module-manager",
+            "description": "Module Manager & Generator for Laravel Starter Kit (https://github.com/knowledgeupswing/laravel-starter)",
+            "homepage": "https://github.com/knowledgeupswing/module-manager",
             "keywords": [
                 "laravel-starter",
                 "module-generator",
                 "module-manager",
-                "nasirkhan"
+                "knowledgeupswing"
             ],
             "support": {
-                "issues": "https://github.com/nasirkhan/module-manager/issues",
-                "source": "https://github.com/nasirkhan/module-manager/tree/v2.7.0"
+                "issues": "https://github.com/knowledgeupswing/module-manager/issues",
+                "source": "https://github.com/knowledgeupswing/module-manager/tree/v2.7.0"
             },
             "time": "2024-05-04T06:48:40+00:00"
         },
