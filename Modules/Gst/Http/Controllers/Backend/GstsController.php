@@ -16,6 +16,7 @@ class GstsController extends BackendBaseController
     {
         // Page Title
         $this->module_title = 'GST';
+        
 
         // module name
         $this->module_name = 'gsts';
