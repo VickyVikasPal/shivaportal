@@ -15,7 +15,7 @@ class GstsController extends BackendBaseController
     public function __construct()
     {
         // Page Title
-        $this->module_title = 'Gsts';
+        $this->module_title = 'GST';
 
         // module name
         $this->module_name = 'gsts';

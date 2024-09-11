@@ -18,7 +18,7 @@
             </p>
             <div class="mb-8 flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-x-4 sm:space-y-0 lg:mb-16">
                 <a class="inline-flex items-center justify-center rounded-lg bg-gray-700 px-5 py-3 text-center text-base font-medium text-white hover:bg-gray-800 focus:ring-4 focus:ring-gray-300"
-                    href="https://github.com/nasirkhan/laravel-starter" target="_blank">
+                    href="https://github.com/knowledgeupswing/laravel-starter" target="_blank">
                     <svg class="icon icon-tabler icons-tabler-outline icon-tabler-brand-github"
                         xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                         stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -31,7 +31,7 @@
                     </span>
                 </a>
                 <a class="inline-flex items-center justify-center rounded-lg border border-gray-300 bg-white px-5 py-3 text-center text-base font-medium text-gray-900 hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:border-gray-700 dark:text-gray-700 dark:hover:bg-gray-700 dark:hover:text-white dark:focus:ring-gray-800"
-                    href="https://nasirkhn.com" target="_blank">
+                    href="https://knowledgeupswing.com" target="_blank">
                     <svg class="icon icon-tabler icons-tabler-outline icon-tabler-world-www"
                         xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                         stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -74,19 +74,19 @@
     <section class="bg-gray-50 pb-20 dark:bg-gray-700">
         <div class="grid grid-cols-1 gap-4 p-5 sm:grid-cols-2">
             <div class="rounded-lg p-3 shadow-lg dark:bg-gray-800 sm:p-10">
-                <img src="https://github.com/nasirkhan/laravel-starter/assets/396987/1cf5ce5a-f374-4bae-b5a3-69e8d7ff684d"
+                <img src="https://github.com/knowledgeupswing/laravel-starter/assets/396987/1cf5ce5a-f374-4bae-b5a3-69e8d7ff684d"
                     alt="Page preview">
             </div>
             <div class="rounded-lg p-3 shadow-lg dark:bg-gray-800 sm:p-10">
-                <img src="https://github.com/nasirkhan/laravel-starter/assets/396987/93341711-60dd-4624-8cd7-82f1c611287d"
+                <img src="https://github.com/knowledgeupswing/laravel-starter/assets/396987/93341711-60dd-4624-8cd7-82f1c611287d"
                     alt="Page preview">
             </div>
             <div class="rounded-lg p-3 shadow-lg dark:bg-gray-800 sm:p-10">
-                <img src="https://github.com/nasirkhan/laravel-starter/assets/396987/0f6b8201-6f6a-429f-894b-4e491cc5eba4"
+                <img src="https://github.com/knowledgeupswing/laravel-starter/assets/396987/0f6b8201-6f6a-429f-894b-4e491cc5eba4"
                     alt="Page preview">
             </div>
             <div class="rounded-lg p-3 shadow-lg dark:bg-gray-800 sm:p-10">
-                <img src="https://github.com/nasirkhan/laravel-starter/assets/396987/f8131011-2ecc-4a11-961f-85e02cb8f7a1"
+                <img src="https://github.com/knowledgeupswing/laravel-starter/assets/396987/f8131011-2ecc-4a11-961f-85e02cb8f7a1"
                     alt="Page preview">
             </div>
         </div>

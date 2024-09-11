@@ -16,7 +16,7 @@ class IncometaxesController extends BackendBaseController
     public function __construct()
     {
         // Page Title
-        $this->module_title = 'Incometaxes';
+        $this->module_title = 'Income Tax';
 
         // module name
         $this->module_name = 'incometaxes';

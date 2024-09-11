@@ -7,10 +7,10 @@
                 Welcome to {{ app_name() }}!
             </p>
             <p>
-                Nasir Khan Saikat and <a href="https://github.com/nasirkhan/laravel-starter/graphs/contributors"
+            knowledgeupswing and <a href="https://github.com/knowledgeupswing/laravel-starter/graphs/contributors"
                     target="_blank">contributors</a> built the {{ config('app.name') }} as
                 an Open Source app. This SERVICE is provided by
-                <a href="https://nasirkhn.com" target="_blank">Nasir Khan Saikat</a> at no cost and is intended for use as
+                <a href="https://knowledgeupswing.com" target="_blank">knowledgeupswing</a> at no cost and is intended for use as
                 is.
             </p>
             <p>

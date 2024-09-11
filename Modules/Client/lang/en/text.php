@@ -6,6 +6,8 @@ return [
     'email' => 'Email',
     'mobile' => 'Mobile No.',
     'pan' => 'Pan No.',
+    'category' => 'Category',
+    'reference_by' => 'Reference By',
     'aadhaar' => 'Aadhaar No.',
     'pincode' => 'Pincode',
     'dob' => 'DOB.',

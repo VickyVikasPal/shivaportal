@@ -55,6 +55,9 @@
                                 @lang("client::text.name")
                             </th>
                             <th>
+                                @lang("client::text.category")
+                            </th>
+                            <th>
                                 @lang("client::text.email")
                             </th>
                             <th>
@@ -70,7 +73,7 @@
                                 @lang("client::text.aadhaar")
                             </th>
                             <th>
-                                @lang("client::text.pincode")
+                                @lang("client::text.reference_by")
                             </th>
                             <th class="text-end">
                                 @lang("client::text.action")
@@ -123,6 +126,10 @@
                 name: 'name'
             },
             {
+                data: 'category',
+                name: 'category'
+            },
+            {
                 data: 'email',
                 name: 'email'
             },
@@ -143,8 +150,8 @@
                 name: 'aadhaar'
             },
             {
-                data: 'pincode',
-                name: 'pincode'
+                data: 'reference_by',
+                name: 'reference_by'
             },
             {
                 data: 'action',

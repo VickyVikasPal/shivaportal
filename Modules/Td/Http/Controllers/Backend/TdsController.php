@@ -16,7 +16,7 @@ class TdsController extends BackendBaseController
     public function __construct()
     {
         // Page Title
-        $this->module_title = 'Tds';
+        $this->module_title = 'TDS';
 
         // module name
         $this->module_name = 'tds';

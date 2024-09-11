@@ -1,0 +1,13 @@
+{
+    "name": "Mca",
+    "alias": "mca",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Mca\\Providers\\McaServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

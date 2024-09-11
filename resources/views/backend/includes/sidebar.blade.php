@@ -27,8 +27,8 @@ $notifications_latest = optional($notifications)->take(5);
             </a>
         </li>
         @php
-            $module_name = "gsts";
-            $text = __('Gsts');
+            $module_name = "clients";
+            $text = __('Clients');
             $icon = "fa-regular fa-file-lines";
             $permission = "view_".$module_name;
             $url = route('backend.'.$module_name.'.index');
@@ -36,7 +36,15 @@ $notifications_latest = optional($notifications)->take(5);
         <x-backend.sidebar-nav-item :permission="$permission" :url="$url" :icon="$icon" :text="$text" />
         @php
             $module_name = "incometaxes";
-            $text = __('Incometaxes');
+            $text = __('Income Tax');
+            $icon = "fa-regular fa-file-lines";
+            $permission = "view_".$module_name;
+            $url = route('backend.'.$module_name.'.index');
+        @endphp
+        <x-backend.sidebar-nav-item :permission="$permission" :url="$url" :icon="$icon" :text="$text" />
+        @php
+            $module_name = "gsts";
+            $text = __('GST');
             $icon = "fa-regular fa-file-lines";
             $permission = "view_".$module_name;
             $url = route('backend.'.$module_name.'.index');
@@ -44,15 +52,31 @@ $notifications_latest = optional($notifications)->take(5);
         <x-backend.sidebar-nav-item :permission="$permission" :url="$url" :icon="$icon" :text="$text" />
         @php
             $module_name = "tds";
-            $text = __('Tds');
+            $text = __('TDS');
             $icon = "fa-regular fa-file-lines";
             $permission = "view_".$module_name;
             $url = route('backend.'.$module_name.'.index');
         @endphp
         <x-backend.sidebar-nav-item :permission="$permission" :url="$url" :icon="$icon" :text="$text" />
         @php
-            $module_name = "clients";
-            $text = __('Clients');
+            $module_name = "mcas";
+            $text = __('MCA');
+            $icon = "fa-regular fa-file-lines";
+            $permission = "view_".$module_name;
+            $url = route('backend.'.$module_name.'.index');
+        @endphp
+        <x-backend.sidebar-nav-item :permission="$permission" :url="$url" :icon="$icon" :text="$text" />
+        @php
+            $module_name = "securities";
+            $text = __('Security');
+            $icon = "fa-regular fa-file-lines";
+            $permission = "view_".$module_name;
+            $url = route('backend.'.$module_name.'.index');
+        @endphp
+        <x-backend.sidebar-nav-item :permission="$permission" :url="$url" :icon="$icon" :text="$text" />
+        @php
+            $module_name = "banks";
+            $text = __('Bank');
             $icon = "fa-regular fa-file-lines";
             $permission = "view_".$module_name;
             $url = route('backend.'.$module_name.'.index');

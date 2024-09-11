@@ -14,7 +14,7 @@ return [
     'stubs' => [
         // 'path' => base_path('stubs/laravel-starter-stubs'),
 
-        'path' => base_path('vendor/nasirkhan/module-manager/src/stubs'),
+        'path' => base_path('vendor/knowledgeupswing/module-manager/src/stubs'),
     ],
 
     'module' => [
@@ -57,10 +57,10 @@ return [
     */
 
     'composer' => [
-        'vendor' => 'nasirkhan',
+        'vendor' => 'knowledgeupswing',
         'author' => [
-            'name' => 'Nasir Khan',
-            'email' => 'nasir8891@gmail.com',
+            'name' => 'knowledgeupswing',
+            'email' => 'knowledgeupswing@gmail.com',
         ],
     ],
 
