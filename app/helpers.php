@@ -558,3 +558,15 @@ if (! function_exists('split_name')) {
         return [$first_name, $last_name];
     }
 }
+
+/*
+ * get total number of records of the table
+ */
+if (! function_exists('getTotalCount')) {
+    function getTotalCount($tableName)
+    {
+        return DB::table($tableName)
+        ->whereNull('deleted_at') // Exclude soft-deleted records
+        ->count();
+    }
+}
